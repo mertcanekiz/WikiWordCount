@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Wikipedia WordCount</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Hello World</h1>
-</body>
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/cosmo/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-">
+    <main>
+      <div class="container app">
+        <div class="form-row h-100">
+          <div class="col-sm my-auto text-center">
+            <h1>WikiWordCount</h1>
+            <form action="/search.html">
+              <input
+                type="text"
+                class="form-control"
+                name="query"
+                id="query"
+                placeholder="Search Wikipedia"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="bg-primary d-flex text-light align-items-center justify-content-center"
+      style="height: 2rem"
+    >
+      Made with &lt;3 by Mertcan Ekiz
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
